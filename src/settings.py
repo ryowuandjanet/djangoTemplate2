@@ -16,7 +16,7 @@ else:
     DEBUG = False
 
 ALLOWED_HOSTS = [".replit.dev", ".replit.app","*"]
-CSRF_TRUSTED_ORIGINS = ["https://*.replit.dev", "https://*.replit.app"]
+CSRF_TRUSTED_ORIGINS = ["https://*.replit.dev", "https://*.replit.app","https://djangotemplate2.onrender.com"]
 
 INSTALLED_APPS = [
   'jazzmin',
